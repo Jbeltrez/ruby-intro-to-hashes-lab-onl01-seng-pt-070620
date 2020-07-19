@@ -1,3 +1,5 @@
+require 'pry'
+
 def new_hash
   my_hash = {}
 end
@@ -25,6 +27,7 @@ def monopoly_with_third_tier
 		monopoly = {
 	  :railroads => {
 	    :pieces => 4, :names => {}, :rent_in_dollars => {}
+	    binding.pry
 	  }
 	}
 end
